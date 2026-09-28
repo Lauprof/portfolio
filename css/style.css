@@ -8,15 +8,15 @@ html{
   background-color: black;
 }
 @font-face {
-  font-family:myFont ;
+  font-family:myFont;
   src: url("Itim-Regular.ttf");
+ 
 }
 nav{
   position: fixed;
   background-color: black;
   top:0;
   right:0;
-  
   left:0;
   
 }
@@ -33,7 +33,7 @@ nav ol li {
 }
 nav ol li a{
   text-decoration: none;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
   color: grey;
 }
@@ -47,8 +47,8 @@ nav ol li a{
 }
 #name h1{
   color: white;
-  font-size: 35px;
-  font-family: myFont;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 .self{
   position: relative;
@@ -56,8 +56,8 @@ nav ol li a{
 }
 .self h4{
   color: white;
-  font-size: 18px;
-  font-family: myFont;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   text-align: center;
 }
 .self img{
@@ -72,8 +72,9 @@ nav ol li a{
   position: relative;
   margin:10px;
   column-count: 1;
+  font-family: 12px;
   color: grey;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   padding:6px;
   margin-top: 25px;
 }
@@ -91,7 +92,7 @@ nav ol li a{
 
 .skills h2,p{
   padding: 5px;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   color: white;
 }
 .events{
@@ -106,9 +107,9 @@ nav ol li a{
   padding:10px 12px;
   text-align: center;
 color: black;
-font-size: 20px;
+font-size: 15px;
 font-weight: bold;
-font-family: myFont;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 
 
@@ -117,7 +118,7 @@ font-family: myFont;
 }
 .charges h1{
   color: orangered;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 .charges ul{
   margin:10px;
@@ -131,10 +132,10 @@ font-family: myFont;
   padding:15px 15px;
   text-align: center;
 color: black;
-font-size: 20px;
+font-size: 15px;
 font-weight: bold;
 border-bottom: 1px solid lightgrey;
-font-family: myFont;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 .title1{
   background-color: hotpink;
@@ -144,13 +145,13 @@ font-family: myFont;
   
   color: red;
   padding: 4px;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   
 }
 .comment1{
   color: grey;
   padding:10px;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   
 }
 .comment1 p{
@@ -168,7 +169,7 @@ font-family: myFont;
 .comment2{
   color: grey;
   padding:10px;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   
 }
 .comment2 p{
@@ -192,7 +193,7 @@ font-family: myFont;
 .projects h3{
   
   color:magenta;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   
 }
 .projects ol{
@@ -203,9 +204,9 @@ font-family: myFont;
 }
 .projects li{
   padding:14px 12px;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   background-color: brown;
-  font-size:19px;
+  font-size:15px;
   margin-bottom: 5px;
   
   
@@ -223,24 +224,24 @@ font-family: myFont;
 }
 #contact{
   padding:10px;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   
 }
 #contact h3{
   color: tomato;
   
-  font-family:myFont;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   
 }
 
 #contact p{
   
   color: lightgrey;
-  font-size: 17px;
+  font-size: 15px;
 }
 .send{
   margin:10px;
-  font-family: myFont;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 
 
