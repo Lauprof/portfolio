@@ -10,8 +10,8 @@
   <title>Portfolio</title>
 </head>
 <body>
-  <div class="part0">
-  <div class="part1">
+  <main class="part0">
+  <header class="part1">
     
  
   <nav>
@@ -45,7 +45,7 @@
     
   </div>
   <br><br><br>
-  <div class="about" id="about">
+  <section class="about" id="about">
     <p>Lawrence mburia</p>
     I am Lawrence mburia kinyua aged 25 as of year 2026.I am a passionate in the working of communication and more in the internet technology.
     I have a bachelor's degree in Telecommunication and information technology  Kenyatta university.
@@ -54,11 +54,11 @@
     
 
 
-  </div>
+  </section>
   
-  </div>
-  <!-- end of div part 1 -->
-  <div class="part2">
+  </header>
+  <!-- end of header part 1 -->
+  <section class="part2">
   <br><br>
   <div class="skills" id="skills">
     
@@ -165,14 +165,14 @@
   <br><br>
   
   
-  </div>
-  <!-- end of div id part 2 -->
-  </div>
-  <!-- end of div id part0 -->
+  </section>
+  <!-- end of section id part 2 -->
+</main>
+  <!-- end of main id part0 -->
   
   <div class="last">
     
-  <div class="last1">
+  <section class="last1">
     
   
   <div class="reputation">
@@ -199,7 +199,7 @@
   
 
 </div>
-</div>
+</section>
 <br><br>
 
 <div class="last2">
@@ -260,7 +260,7 @@
   Let's communicate, send me a message
 </p>
 
-<form action="https://diploid-rifles.000webhostapp.com/register_data_new.php" method="post" accept-charset="utf-8">
+<form id= "feedbackForm" method="post" enctype="application/x-www-form-urlencoded" utf-8">
   
   <input type="text" name="name" id="" required placeholder="Name">
   <br />
@@ -283,17 +283,29 @@
 
   </div>
   
-  <div class="footer">
+  <footer class="footer">
     <center>
       
     <canvas id="myCanvas" height="70" width="200"/>
     
     </center>
-  </div>
+  </footer>
   
 
 
 <script src="js/time.js"></script>
-  
+<script>
+
+  document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+    // Stops the page from reloading
+    event.preventDefault(); 
+    
+    // Shows the success pop-up
+    alert('Data sent successfully!');
+    
+    // Clears out the text boxes
+    this.reset();
+  });
+</script>
 </body>
 </html>
